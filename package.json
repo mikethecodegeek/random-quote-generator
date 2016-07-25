@@ -4,8 +4,13 @@
   "description": "generates random quotes",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
   },
+  "engines": {
+  "node": "5.10.1",
+  "npm": "3.8.3"
+  },    
   "author": "Michael Sanford",
   "license": "ISC",
   "dependencies": {
