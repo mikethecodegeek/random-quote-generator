@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote Generator API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+    <script src="/script.js"></script>
+</head>
+<body>
+   <div class = "container">
+    <h1>Super Simple Random Quote Generator API</h1>
+    <div>
+        <p class="lead">This is a simple quote generator API. There is currently 50 quotes in the database. This was put together in an afternoon as my way to give to the community. Please let me know if there is there is enough interest to keep working/expanding on this project.</p>
+        <p> I am currently experimenting with Heroku's free tier for this project. This means three things.</p>
+        <p>1. Heroku's free tier will put an app to sleep that hasn't been used in 30 minutes. So if your having trouble getting data please go to https://random-quote-generator.herokuapp.com/ in your browser and wait a minute for the app to wake up. </p>
+        <p>2. Because this is the free tier and I don't have any money I may be forced to pull this down or ask for donations if it gets enough usage and I begin to get charged. </p>
+        <p>3. We get what we pay for in life so I make no guarantees to the speed/user experience of this app. </p>
+    </div>
+    <h2>Usage: There are currently two enpoints to this API and both take GET requests</h2>
+    <h3>Get All Quotes: https://random-quote-generator.herokuapp.com/api/quotes/</h3>
+    <button id="all" class="btn btn-success">Get All Quotes</button>
+    <h3>Get A Random Quote: https://random-quote-generator.herokuapp.com/api/quotes/random</h3>
+    <button id="random" class="btn btn-success">Get a Random Quote</button>
+    <div id="result"></div>
+   </div>
+   
+    <div class="navbar navbar-default navbar-fixed-bottom">
+    <div class="container">
+      <p class="navbar-text pull-left">© 2016 - API Created By Michael Sanford - aka mikethecodegeek.</p>
+      
+      <a target="_blank" href="https://www.linkedin.com/in/michael-sanford-1180b3115" class="navbar-btn btn pull-right">LinkedIn</a>
+      <a target="_blank" href="http://www.michaelsanford.tech" class="navbar-btn btn pull-right">michaelsanford.tech</a>
+      <a target="_blank" href="mailto:mikethecodegeek@gmail" class="navbar-btn btn pull-right">mikethecodegeek@gmail.com</a>
+    </div>
+    
+</body>
+</html>
